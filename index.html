@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <script defer src="/students-add.js"></script>
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <div class="panel container-fluid">
+        <ul class="nav panel__container container justify-content-center nav-tabs">
+            <li class="nav-item panel__container_link">
+                <a href="index.html" class="nav-link active students__link students__link_add">Добавить студента</a>
+            </li>
+            <li class="nav-item panel__container_link">
+                <a href="table.html" class="nav-link students__link students__link_table">Таблица студентов</a>
+            </li>
+        </ul>
+    </div>
+    <div class="workplace container">
+        <h2 class="mt-3 workplace__h2">Введите информацию о студенте</h2>
+        <form class="row g-3 mt-1 ">
+            <div class="col-md-4">
+                <label for="inputName" class="form-label">Имя</label>
+                <input type="text" class="form-control" id="inputName" name="Name">
+                <p class="form-error form-error-Name d-none">sdf</p>
+            </div>
+            <div class="col-md-4">
+                <label for="inputSurname" class="form-label">Фамилия</label>
+                <input type="text" class="form-control" id="inputSurname" name="Surname">
+                <p class="form-error form-error-Surname d-none">asdf</p>
+            </div>
+            <div class="col-md-4">
+                <label for="inputPatronymic" class="form-label">Отчество</label>
+                <input type="text" class="form-control" id="inputPatronymic" name="Patronymic">
+                <p class="form-error form-error-Patronymic d-none">sdf</p>
+            </div>
+
+            <div class="col-md-4">
+                <label for="inputDateOfBirth" class="form-label">Дата рождения</label>
+                <input type="date" class="form-control" id="inputDateOfBirth" name="DateOfBirth">
+                <p class="form-error form-error-DateOfBirth d-none">asdf</p>
+            </div>
+
+            <div class="col-md-4">
+                <label for="inputYearStartStudy" class="form-label">Год начала обучения</label>
+                <input type="number" class="form-control" id="inputYearStartStudy" name="YearStartStudy">
+                <p class="form-error form-error-YearStartStudy d-none">asd</p>
+            </div>
+
+            <div class="col-md-4">
+                <label for="inputFaculty" class="form-label">Факультет</label>
+                <input type="text" class="form-control" id="inputFaculty" name="Faculty">
+                <p class="form-error form-error-Faculty d-none">asd</p>
+            </div>
+
+            <div class="col-12 mt-4">
+                <button type="submit" id="sumbitButton" class="btn btn-primary">Добавить студента</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

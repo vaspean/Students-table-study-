@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+         url('../fonts/Montserrat-Regular.woff') format('woff');
+  }
+
+/* .workplace {
+    width: 50%;
+} */
+
+.workplace__h2 {
+    text-align: center;
+}
+
+.form-error {
+    margin-top: 8px;
+    text-align: center;
+    color: red;
+    /* opacity: 0; */
+}
+
+.thFilter {
+  cursor: pointer;
+}
+
+/* .table {
+  margin: auto;
+  width: 80%;
+  align-items: center;
+} */
+
+table {
+  margin: auto;
+}
+
+tr {
+  width: 100%;
+}
+
+/* th {
+  width: 100%;
+} */
+/*
+
+:root {
+    --color-first: #03899C;
+    --color-second:	#1F6B75;
+    --color-third: #015965;
+    --color-fourth: #36BBCE;
+    --color-fifth: #5FC0CE;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.panel {
+    background-color: var(--color-third);
+}
+
+.panel__container {
+    margin-bottom: 0;
+    display: flex;
+}
+
+.panel__container_link {
+    background-color: var(--color-fourth);
+    align-items: center;
+}
+
+.panel__container_link:not(:last-child) {
+    margin-right: 50px;
+}
+
+.students__link {
+    padding: 0 20px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.workplace {
+    background-color: var(--color-third);
+} */
+
